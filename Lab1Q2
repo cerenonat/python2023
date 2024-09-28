@@ -1,0 +1,12 @@
+choice = input()
+if choice == 'ucgen':
+    taban1 = int(input())
+    yukseklik = int(input())
+    alan = int((taban1 * yukseklik) / 2)
+    print(alan)
+elif choice == 'dikdortgen' : 
+    taban = int(input())
+    yukseklik = int(input())
+    alan = (taban * yukseklik)
+    print(alan)
+   
